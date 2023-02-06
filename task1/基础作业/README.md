@@ -3,7 +3,7 @@
 resnet18_b32_flower.py 配置文件  
 20230205_191002.log 终端输出日志  
 20230205_191002.log.json 训练时精度日志  
-epoch_8.pth 最高精度模型权重  
+[flower-epoch-8.pth](https://pan.baidu.com/s/1STtSLS1GtyAd4oT73x1c5A) (提取码：s3m1) 最高精度模型权重  
 
 ### 模型配置
 预训练模型：在imagenet-1K上8卡32batchszie训练的resnet18  
