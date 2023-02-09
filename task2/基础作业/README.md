@@ -25,7 +25,7 @@ video_splash.py              给视频增加彩色气球特效
 conda create -n mmdet python=3.8
 conda activate mmdet
 ```
-安装pytorch(请前往[官网](https://pytorch.org/get-started/previous-versions/)寻找符合自己cuda版本的pytorch.这里使用的torch1.0+cuda11.1)
+安装pytorch(请前往[官网](https://pytorch.org/get-started/previous-versions/)寻找符合自己cuda版本的pytorch.这里使用的torch1.10+cuda11.1)
 ```shell
 pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
