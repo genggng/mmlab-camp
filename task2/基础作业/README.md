@@ -54,8 +54,13 @@ python data.py
 ```
 
 ### 3. 训练模型
-修改ballon.py配置文件中训练集和测试集的路径为你本地实际路径。  
-然后训练模型
+修改ballon.py配置文件中训练集和测试集的路径为你本地实际路径。
+下载预训练权重
+```shell
+mim download mmdet --config mask_rcnn_r50_fpn_1x_coco --dest ./checkpoint
+```
+
+修改ballon.py配置文件中load_from路径为下载好的预训练权重,然后训练模型
 ```shell
 min train mmdet ballon.py
 ```
